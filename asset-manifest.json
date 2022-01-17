@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.32c83a5d.css",
+    "main.js": "/static/js/main.3e8fc1e6.js",
+    "static/media/swiss-night-sky.jpeg": "/static/media/swiss-night-sky.6ed26621925a65f67454.jpeg",
+    "static/media/monia-profile.jpeg": "/static/media/monia-profile.47c8e6f50596fc3a862d.jpeg",
+    "static/media/voldyman_start.png": "/static/media/voldyman_start.d0efad1893bd56cd85cd.png",
+    "static/media/sports_page.png": "/static/media/sports_page.5b4c1bf4712df47b9d52.png",
+    "static/media/journi-profilepage.png": "/static/media/journi-profilepage.e023a10fcfaf814bc4c0.png",
+    "static/media/volunteer-register.png": "/static/media/volunteer-register.30624929b312500bc2b1.png",
+    "static/media/mongooseJS.png": "/static/media/mongooseJS.99847c17e47abf5c0258.png",
+    "static/media/moniafavaro-logo.png": "/static/media/moniafavaro-logo.e28f628ee48ad66136a8.png",
+    "index.html": "/index.html",
+    "main.32c83a5d.css.map": "/static/css/main.32c83a5d.css.map",
+    "main.3e8fc1e6.js.map": "/static/js/main.3e8fc1e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32c83a5d.css",
+    "static/js/main.3e8fc1e6.js"
+  ]
+}
