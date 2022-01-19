@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.32c83a5d.css",
-    "main.js": "/static/js/main.3e8fc1e6.js",
+    "main.css": "/static/css/main.cbef77e8.css",
+    "main.js": "/static/js/main.9b2c59b6.js",
     "static/media/swiss-night-sky.jpeg": "/static/media/swiss-night-sky.6ed26621925a65f67454.jpeg",
     "static/media/monia-profile.jpeg": "/static/media/monia-profile.47c8e6f50596fc3a862d.jpeg",
     "static/media/voldyman_start.png": "/static/media/voldyman_start.d0efad1893bd56cd85cd.png",
@@ -11,11 +11,11 @@
     "static/media/mongooseJS.png": "/static/media/mongooseJS.99847c17e47abf5c0258.png",
     "static/media/moniafavaro-logo.png": "/static/media/moniafavaro-logo.e28f628ee48ad66136a8.png",
     "index.html": "/index.html",
-    "main.32c83a5d.css.map": "/static/css/main.32c83a5d.css.map",
-    "main.3e8fc1e6.js.map": "/static/js/main.3e8fc1e6.js.map"
+    "main.cbef77e8.css.map": "/static/css/main.cbef77e8.css.map",
+    "main.9b2c59b6.js.map": "/static/js/main.9b2c59b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.32c83a5d.css",
-    "static/js/main.3e8fc1e6.js"
+    "static/css/main.cbef77e8.css",
+    "static/js/main.9b2c59b6.js"
   ]
 }
