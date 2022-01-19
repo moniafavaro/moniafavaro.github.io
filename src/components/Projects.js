@@ -23,8 +23,11 @@ const Projects = () => {
     <Card className="border-0 projects-card" id="projects">
       <Container className="my-5 text-center">
         <h1 className="projects-title">Projects</h1>
-        <CardGroup className="my-5" style={{ height: "40%" }}>
-          <Card className="border-0">
+        <CardGroup
+          className="projects-cardgroup my-5"
+          style={{ height: "40%" }}
+        >
+          <Card className="project-card-main border-0">
             <Card.Body>
               <h3 className="projects-name">Volunteer</h3>
               <p className="projects-desc">
@@ -154,9 +157,9 @@ const Projects = () => {
           </Card>
           <Card className="project-img-card border-0">
             <Card.Img
-              className="project-img"
+              className="project-img mt-3"
               src={ProjectFour}
-              style={{ height: "70%", width: "85%" }}
+              style={{ height: "70%", width: "80%" }}
             />
           </Card>
         </CardGroup>
@@ -310,7 +313,7 @@ const Projects = () => {
             <Card.Body>
               <h3 className="projects-name">MONATANnews</h3>
               <p className="projects-desc">
-                In these two days, my college and I built a news app using an
+                In these two days, my colleague and I built a news app using an
                 external API to fetch news from a public data source together
                 with JavaScript, React JS and CSS, where you can see the top
                 news in the UK per category such as sports, business and

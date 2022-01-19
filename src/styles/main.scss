@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Raleway:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Raleway:wght@300&family=Roboto+Mono&family=Vast+Shadow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 $bg: rgb(58, 52, 52);
 $words: #28cfd6;
 $font-p: "Lora", serif;
@@ -61,6 +62,7 @@ nav {
   display: inline-block;
   position: relative;
   padding-bottom: 3px;
+  font-weight: bold;
 }
 
 .nav-navbar:hover {
@@ -98,24 +100,22 @@ nav {
 .image-container {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
 }
 
 .about-title,
 .skills-title,
-.projects-title {
+.projects-title,
+.interest-title {
   font-family: $font-t;
   color: $words;
   font-weight: bolder;
   font-size: 3.5rem;
   margin-top: 3rem;
-  margin-bottom: 5rem;
 }
 
 .about-para {
   font-family: $font-p;
-  margin-bottom: 3rem;
-  font-size: $font-size;
+  font-size: 1rem;
 }
 
 .projects-para {
@@ -128,21 +128,19 @@ nav {
   font-family: $font-t;
   color: $words;
   font-weight: bolder;
-  font-size: 2.5rem;
-  margin-top: 1rem;
+  font-size: 2rem;
 }
 
 .contact-para {
-  margin-top: 3rem;
+  margin-top: 2rem;
   font-size: $font-size;
-  margin-bottom: 3rem;
   display: flex;
   justify-content: center;
 }
 
 .contact-icon {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .contact-icon a {
@@ -157,12 +155,43 @@ nav {
 
 .monia-name {
   font-family: $font-p;
+  margin-top: 0.8rem;
+  margin-bottom: -1.5rem;
+}
+
+.scroll-top {
+  color: $words;
+}
+
+.interest-para {
+  font-family: $font-p;
+  font-size: $font-size;
+}
+
+.interest-icon {
+  display: flex;
+  margin: 5px;
+}
+
+.interest-icon img {
+  height: 35px;
+  margin: 8px;
+}
+
+.interest-icon p {
+  margin-top: 10px;
+  font-size: 1rem;
 }
 
 .project-img-card {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.projects-cardgroup {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .project-img {
@@ -232,10 +261,6 @@ nav {
   font-family: $font-p;
   margin-top: 0.8rem;
   font-weight: bolder;
-}
-
-.scroll-top {
-  color: $words;
 }
 
 .icons-div {
