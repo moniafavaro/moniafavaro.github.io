@@ -26,15 +26,14 @@ const About = () => {
                   career change.
                 </p>
                 <p>
-                  When the first lookdown started I founded time to learn a new
-                  skill. I’ve chosen to start a self-learning journey with
-                  Python, using books and online resources, but unfortunately
-                  I’ve felt that I needed something different to help me
-                  progressing in this area, so I enrolled in a Software
-                  Engineering Immersive Course with General Assembly, and I’ve
-                  fallen in love with it. Coding is now my new passion, where I
-                  can be creative, curious and I'm constantly learning new
-                  skills.
+                  When the first lookdown started I found time to learn a new
+                  skill. I chose to start a self-learning journey with Python,
+                  using books and online resources, but unfortunately I’ve felt
+                  that I needed something different to help me progressing in
+                  this area, so I enrolled in a Software Engineering Immersive
+                  Course with General Assembly, and I’ve fallen in love with it.
+                  Coding is now my new passion, where I can be creative, curious
+                  and I'm constantly learn new skills.
                 </p>
                 <p>
                   I am now looking for my first job as a Junior Software

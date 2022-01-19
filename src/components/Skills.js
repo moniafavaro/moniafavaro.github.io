@@ -24,7 +24,7 @@ const Skills = () => {
   return (
     <Card className="skill-card border-0" id="skills">
       <Container className="my-5 text-center">
-        <h1 className="skills-title">Technologies and Skills</h1>
+        <h1 className="skills-title">Skills</h1>
         <Card className="skills-card border-0">
           <div className="skills-div" style={{ height: "10%", width: "70%" }}>
             <div className="icons-div">
