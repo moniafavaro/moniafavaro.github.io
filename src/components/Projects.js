@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import "../styles/main.scss";
 import { Button, Card, CardGroup, Container } from "react-bootstrap";
 import ProjectOne from "../assets/voldyman_start.png";
 import ProjectTwo from "../assets/sports_page.png";
@@ -19,6 +22,10 @@ import PythonIcon from "../assets/icons/python.png";
 import SassIcon from "../assets/icons/sass.png";
 
 const Projects = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   return (
     <Card className="border-0 projects-card" id="projects">
       <Container className="my-5 text-center">
@@ -26,6 +33,7 @@ const Projects = () => {
         <CardGroup
           className="projects-cardgroup my-5"
           style={{ height: "40%" }}
+          data-aos="fade-up"
         >
           <Card className="project-card-main border-0">
             <Card.Body>
@@ -159,11 +167,15 @@ const Projects = () => {
             <Card.Img
               className="project-img mt-3"
               src={ProjectFour}
-              style={{ height: "70%", width: "80%" }}
+              style={{ height: "20rem", width: "35rem" }}
             />
           </Card>
         </CardGroup>
-        <CardGroup className="my-5" style={{ height: "40%" }}>
+        <CardGroup
+          className="my-5"
+          style={{ height: "40%" }}
+          data-aos="fade-up"
+        >
           <Card className="border-0">
             <Card.Body>
               <h3 className="projects-name">Journi</h3>
@@ -308,7 +320,11 @@ const Projects = () => {
             />
           </Card>
         </CardGroup>
-        <CardGroup className="my-5" style={{ height: "30%" }}>
+        <CardGroup
+          className="my-5"
+          style={{ height: "30%" }}
+          data-aos="fade-up"
+        >
           <Card className="border-0">
             <Card.Body>
               <h3 className="projects-name">MONATANnews</h3>
@@ -389,7 +405,11 @@ const Projects = () => {
             />
           </Card>
         </CardGroup>
-        <CardGroup className="my-5" style={{ height: "30%" }}>
+        <CardGroup
+          className="my-5"
+          style={{ height: "30%" }}
+          data-aos="fade-up"
+        >
           <Card className="border-0">
             <Card.Body>
               <h3 className="projects-name mt-4">Voldy-Man</h3>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Navbar } from "react-bootstrap";
 import Logo from "../assets/moniafavaro-logo.png";
+import "../styles/main.scss";
 
 const Me = () => {
   return (
