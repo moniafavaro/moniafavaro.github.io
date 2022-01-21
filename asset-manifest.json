@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fb6a2fb6.css",
-    "main.js": "/static/js/main.f19c15ca.js",
+    "main.js": "/static/js/main.e90bd5a1.js",
     "static/media/swiss-night-sky.jpeg": "/static/media/swiss-night-sky.6ed26621925a65f67454.jpeg",
     "static/media/voldyman_start.png": "/static/media/voldyman_start.d0efad1893bd56cd85cd.png",
     "static/media/me.jpeg": "/static/media/me.50d8df7ec34a578ef8b6.jpeg",
@@ -12,10 +12,10 @@
     "static/media/moniafavaro-logo.png": "/static/media/moniafavaro-logo.e28f628ee48ad66136a8.png",
     "index.html": "/index.html",
     "main.fb6a2fb6.css.map": "/static/css/main.fb6a2fb6.css.map",
-    "main.f19c15ca.js.map": "/static/js/main.f19c15ca.js.map"
+    "main.e90bd5a1.js.map": "/static/js/main.e90bd5a1.js.map"
   },
   "entrypoints": [
     "static/css/main.fb6a2fb6.css",
-    "static/js/main.f19c15ca.js"
+    "static/js/main.e90bd5a1.js"
   ]
 }
