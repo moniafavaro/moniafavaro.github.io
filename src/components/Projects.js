@@ -167,7 +167,7 @@ const Projects = () => {
             <Card.Img
               className="project-img mt-3"
               src={ProjectFour}
-              style={{ height: "20rem", width: "35rem" }}
+              style={{ height: "70%", width: "85%" }}
             />
           </Card>
         </CardGroup>
