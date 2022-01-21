@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/main.scss";
 import { Card, Container } from "react-bootstrap";
 import PythonIcon from "../assets/icons/python.png";
 import BootstrapIcon from "../assets/icons/bootstrap.png";

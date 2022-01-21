@@ -1,5 +1,6 @@
-import { Navbar, Nav, Container } from "react-bootstrap";
 import React from "react";
+import "../styles/main.scss";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import { HashLink as LinkH } from "react-router-hash-link";
 
 const NavBar = () => {
